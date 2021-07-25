@@ -1,0 +1,2 @@
+第七行增加了:from tensorflow import keras
+第57行修改为:model.compile(optimizer=keras.optimizers.Adam(lr=0.0001), loss='mse', metrics=['acc'])
